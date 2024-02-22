@@ -1,9 +1,11 @@
 :root {
-    --blueColor: #199de5;
+  --blueColor: #199de5;
+  --darkBlue: #076490;
+  --bgc-gray: #9eb1bb;
 }
 
 body {
-    box-sizing: border-box;
-    margin: 0;
-    background-color: var(--blueColor);
+  box-sizing: border-box;
+  margin: 0;
+  background-color: var(--blueColor);
 }
