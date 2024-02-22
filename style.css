@@ -1,0 +1,9 @@
+:root {
+    --blueColor: #199de5;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--blueColor);
+}
