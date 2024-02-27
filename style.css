@@ -1,11 +1,90 @@
 :root {
   --blueColor: #199de5;
   --darkBlue: #076490;
-  --bgc-gray: #9eb1bb;
+  --dark-gray: #9eb1bb;
+  --bgc-light-gray: #f5f7f8;
+  --light-gray: #dfe5e8;
+  --shadow-color: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 body {
   box-sizing: border-box;
-  margin: 0;
-  background-color: var(--blueColor);
+  background-color: var(--bgc-light-gray);
+  font-family: "" sans-serif;
+  font-size: 15px;
 }
+/* Zhanar's right-side -  begins here */
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+.right-cont {
+  background-color: white;
+  margin: 5px;
+  width: 200px;
+  box-shadow: var(--shadow-color);
+  border-radius: 4px;
+  text-align: center;
+}
+
+#event-image {
+  width: 90%;
+}
+#react-course {
+  font-weight: bold;
+}
+#info-btn {
+  background-color: var(--light-gray);
+  width: 80%;
+  padding: 5px;
+  margin-left: 10px;
+}
+#info-btn:hover {
+  background-color: #9eb1bb;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#shiba-inu {
+  width: 50%;
+}
+
+#green,
+#red {
+  width: 40%;
+  text-decoration-line: none;
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#red:hover {
+  background-color: var(--dark-gray);
+  color: #076490;
+}
+#green:hover {
+  background-color: var(--dark-gray);
+  color: #076490;
+}
+#green {
+  background-color: #4caf50;
+}
+#red {
+  background-color: #f44336;
+  margin-left: -4px;
+}
+
+#right-cont3 {
+  padding: 30px 0px;
+}
+
+#bug-icon {
+  width: 2rem;
+  padding: 30px 0px;
+}
+
+/* Zhanar's right-side -  ends here */

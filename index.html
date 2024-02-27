@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/62669d212e.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Team4-Social-Network</title>
-</head>
-<body>
-  
+  </head>
+  <body>
     <!-- NAVBAR -->
-    <header class = "header">
-        <nav class="nav">
-            <ul class="lists">
-                <li>Seytech</li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
+    <header class="header">
+      <nav class="nav">
+        <ul class="lists">
+          <li>Seytech</li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
     </header>
-  
+
     <!-- CONTAINER -->
     <div class="container">
-        <!-- LEFT SIDE -->
-        <aside class = "left-side" id = "left">
-            <section class = "section-left" id = "box1"></section>
-            <section class = "section-left" id = "box2"></section>
-            <section class = "section-left" id = "box3"></section>
-            <section class = "section-left" id = "box4"></section>
-            <section class = "section-left" id = "box5"></section>
-        </aside>
+      <!-- LEFT SIDE -->
+      <aside class="left-side" id="left">
+        <section class="section-left" id="box1"></section>
+        <section class="section-left" id="box2"></section>
+        <section class="section-left" id="box3"></section>
+        <section class="section-left" id="box4"></section>
+        <section class="section-left" id="box5"></section>
+      </aside>
 
-    <!-- MAIN FEEDS -->
-        <main class = "main">
-            <div class = "feeds" id = "post1">
+      <!-- MAIN FEEDS -->
+      <main class="main">
+        <div class="feeds" id="post1"></div>
+        <div class="feeds" id="post2"></div>
+        <div class="feeds" id="post3"></div>
+        <div class="feeds" id="post4"></div>
+      </main>
 
-            </div>
-            <div class = "feeds" id = "post2"></div>
-            <div class = "feeds" id = "post3"></div>
-            <div class = "feeds" id = "post4"></div>
-        </main>
-
-
-    <!-- RIGHT SIDE -->
-        <aside class = "right-side" id = "right">
-            <article class = "right-cont" id = "right-cont1"></article>
-            <article class = "right-cont" id = "right-cont2"></article>
-            <article class = "right-cont" id = "right-cont3"></article>
-            <article class = "right-cont" id = "right-cont4"></article>
-        </aside>
+      <!-- RIGHT SIDE (Zhanar) -->
+      <aside class="right-side" id="right">
+        <article class="right-cont" id="right-cont1">
+          <p>Upcoming Events:</p>
+          <img
+            id="event-image"
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/event.png"
+            alt="event image"
+          />
+          <p id="react-course">React Course</p>
+          <p>Friday 15:00</p>
+          <p id="info-btn"><a href="#">Info</a></p>
+        </article>
+        <article class="right-cont" id="right-cont2">
+          <p>Friend Request</p>
+          <img
+            id="shiba-inu"
+            src="http://learn.seytech.co/assets/images/avatars/default.jpg"
+            alt="Shiba Inu image"
+          />
+          <br /><span>Shiba Inu</span>
+          <br />
+          <div class="buttons">
+            <button id="green">
+              <i class="fa-solid fa-check button-icon"></i>
+            </button>
+            <button id="red"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </article>
+        <article class="right-cont" id="right-cont3">ADS</article>
+        <article class="right-cont" id="right-cont4">
+          <img
+            id="bug-icon"
+            src="https://www.shareicon.net/data/128x128/2016/11/14/852128_bug_512x512.png"
+            alt="bug icon"
+          />
+        </article>
+      </aside>
     </div>
 
-
     <!-- FOOTER -->
-    <footer class = "footer">
-        <div class="footer-top"></div>
-        <div class="footer-bottom"></div>
-    </footer>       
-</body>
+    <footer class="footer">
+      <div class="footer-top"></div>
+      <div class="footer-bottom"></div>
+    </footer>
+  </body>
 </html>
