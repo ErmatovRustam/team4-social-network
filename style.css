@@ -212,6 +212,7 @@ a {
 /*left side starts here*/
 .section-left{
   box-shadow: var(--shadow-color);
+  background-color: white;
   
 }
 
@@ -244,6 +245,7 @@ a {
   margin-top: 20px;
   padding-top:0%;
 }
+
 .iconDiv{
   padding-left: 10px;
   background-color: var(--blueColor);
