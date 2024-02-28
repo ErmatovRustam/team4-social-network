@@ -11,13 +11,184 @@
     ></script>
 
     <title>Team4-Social-Network</title>
-</head>
-<body>
-    <header class = "header">HEADER</header>
-    <aside class = "left-side">LEFT SIDE</aside>
-    <aside class = "right-side">LEFT SIDE</aside>
-    <main>PLEASE WRITE YOUR CODE HERE</main>
-    <footer class = "footer">FOOTER</footer>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="nav">
+        <ul class="lists">
+          <li>Seytech</li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
 
-</body>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <aside class="left-side" id="left">
+        <section class="section-left" id="box1"></section>
+        <section class="section-left" id="box2"></section>
+        <section class="section-left" id="box3"></section>
+        <section class="section-left" id="box4"></section>
+        <section class="section-left" id="box5"></section>
+      </aside>
+
+      <!-- MAIN FEEDS -->
+      <main class="main">
+        <div class="feeds" id="post1">
+          <div class="statusWrap">
+          <input id = "status"type="text" placeholder="Status: Feeling Blue">
+          <br>
+          <button type="button" class = "button" >        <i class="fas fa-pencil-alt fa-lg"></i>POST</button>
+        </div>
+        </div>
+        <div class="feeds" id="post2">
+          <div class="rachel">
+           <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/rachel.jpeg"
+              alt="rachel"
+              class="rachel-img"
+              style="width: 60px"
+            />
+           <span class="time">1 min</span>
+            <h4>Rachel Sine</h4>
+            <br />
+            <p class="post-p">
+              Next cohort will start soon. We strive for teaching our students
+              the most up-to-date programming technologies. Contact us.
+            </p>
+            <div class="images">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png"
+                alt="tshirts"
+                class="post2-imgs"
+                style="width: 100%"
+              />
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p1.jpg"
+                alt="coding"
+                class="post2-imgs"
+                style="width: 100%"
+              />
+            </div>
+            <br>
+            <button type="button" class="button">
+                <i class="fas fa-thumbs-up fa-lg"></i> Like
+            </button>
+            <button type="button" class="button">
+                <i class="fas fa-comment fa-lg"></i> Comment
+            </button>
+        </div>
+        </div>
+        <div class="feeds" id="post3">
+          <div class="aikol">
+          <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/aikol.jpeg"
+              alt="aikol"
+              class="aikol-img"
+              style="width: 60px"
+            />
+            <span class="time">16 min</span>
+            <h4>Aikol T</h4>
+            <br />
+            <p class="post-p">
+              Join us at the new and improved Microsoft! We are building the
+              Developer Relations dream team in Azure engineering. Our global
+              team is...
+            </p>
+            <button type="button" class="button">
+                <i class="fas fa-thumbs-up fa-lg"></i> Like
+              </button>
+              <button type="button" class="button">
+                <i class="fas fa-comment fa-lg"></i> Comment
+              </button>
+        </div>
+        </div>
+        <div class="feeds" id="post4">
+          <div class="ulan">
+          <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/ulan.jpeg"
+              alt="luan"
+              class="ulan-img"
+              style="width: 60px"
+            />
+            <span class="time">32 min</span>
+            <h4>L'uan R</h4>
+            <br />
+            <p class="post-p">Have you seen this?</p>
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png"
+              alt="development"
+              class="ulan-post-img"
+              style="width: 100%"
+            />
+             <p>
+              Coding bootcamp reviews, rankings, and resources to help students
+              find what they need.
+              <br />
+              <a
+                href="https://learn.seytech.co/"
+                id="bootcampvenue" target = "_blank"
+                >Bootcamp Venue</a
+              >
+            </p>
+            <button type="button" class="button">
+                <i class="fas fa-thumbs-up fa-lg"></i> Like
+              </button>
+              <button type="button" class="button">
+                <i class="fas fa-comment fa-lg"></i> Comment
+              </button>
+        </div>
+        </div>
+      </main>
+
+      <!-- RIGHT SIDE (Zhanar) -->
+      <aside class="right-side" id="right">
+        <article class="right-cont" id="right-cont1">
+          <p>Upcoming Events:</p>
+          <img
+            id="event-image"
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/event.png"
+            alt="event image"
+          />
+          <p id="react-course">React Course</p>
+          <p>Friday 15:00</p>
+          <p id="info-btn"><a href="#">Info</a></p>
+        </article>
+        <article class="right-cont" id="right-cont2">
+          <p>Friend Request</p>
+          <img
+            id="shiba-inu"
+            src="http://learn.seytech.co/assets/images/avatars/default.jpg"
+            alt="Shiba Inu image"
+          />
+          <br /><span>Shiba Inu</span>
+          <br />
+          <div class="buttons">
+            <button id="green">
+              <i class="fa-solid fa-check button-icon"></i>
+            </button>
+            <button id="red"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </article>
+        <article class="right-cont" id="right-cont3">ADS</article>
+        <article class="right-cont" id="right-cont4">
+          <img
+            id="bug-icon"
+            src="https://www.shareicon.net/data/128x128/2016/11/14/852128_bug_512x512.png"
+            alt="bug icon"
+          />
+        </article>
+      </aside>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-top"></div>
+      <div class="footer-bottom"></div>
+    </footer>
+  </body>
 </html>
