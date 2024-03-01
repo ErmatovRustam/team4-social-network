@@ -69,8 +69,9 @@ body {
   text-align: left;
   background-color: white;
   padding: 0.15px 16px;
-  border-radius: 10px;
+  border-radius: 4px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 h4 {
@@ -98,6 +99,7 @@ h4 {
 .button:hover {
   background-color: lightgray;
   color: black;
+  cursor: pointer;
 
   i {
     color: black;
@@ -129,6 +131,7 @@ h4 {
   box-shadow: var(--shadow-color);
   border-radius: 4px;
   text-align: center;
+  margin-top: 10px;
 }
 
 #event-image {
@@ -145,6 +148,7 @@ h4 {
 }
 #info-btn:hover {
   background-color: #9eb1bb;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -167,10 +171,12 @@ a {
 #red:hover {
   background-color: var(--dark-gray);
   color: #076490;
+  cursor: pointer;
 }
 #green:hover {
   background-color: var(--dark-gray);
   color: #076490;
+  cursor: pointer;
 }
 #green {
   background-color: #4caf50;
@@ -187,6 +193,10 @@ a {
 #bug-icon {
   width: 2rem;
   padding: 30px 0px;
+}
+.btnI{
+  font-family:normal ;
+  margin-left: 10px;
 }
 
 /* Zhanar's right-side -  ends here */
@@ -213,6 +223,7 @@ a {
 .section-left{
   box-shadow: var(--shadow-color);
   background-color: white;
+  border-radius: 4px;
   
 }
 
@@ -249,6 +260,8 @@ a {
 .iconDiv{
   padding-left: 10px;
   background-color: var(--blueColor);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 
 }
 .iconDiv :hover{
@@ -329,4 +342,52 @@ align-items: center;
   justify-content: space-between;
   
 }
+.april{
+  margin-left: 5px;
+}
 
+/*Navbar and Footer*/
+.navIcons{
+  background-color: var(--blueColor);
+  color: white;
+  display: flex;
+  
+}
+.iconDarkBlue{
+  background-color: var(--darkBlue);
+
+}
+.navIcons i{
+  padding: 15px;
+}
+.navIcons i:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.iconDarkBlue i:hover{
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+#spanSeytech{
+  font-family: normal;
+  margin-left: 10px;
+}
+body{
+margin: 0% ;
+}
+.footer-top{
+  background-color: var(--blueColor);
+  padding: 15px;
+  color: white;
+}
+.footer-bottom{
+  background-color: var(--darkBlue);
+  padding: 10px;
+  color: white;
+}
+
+a{
+  color: white;
+  border-bottom: solid 2px white;
+}
